@@ -4,10 +4,16 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	return (
-		<div className="text-center">
-            
+		<div>	
+			<div>reloj</div>		
+			<div className="col">{props.digitSix}</div>
+			<div className="col">{props.digitFive}</div>
+			<div className="col">{props.digitFour}</div>
+			<div className="col">{props.digitThree}</div>
+			<div className="col">{props.digitTwo}</div>
+			<div className="col">{props.digitOne}</div>
 		</div>
 	);
 };
