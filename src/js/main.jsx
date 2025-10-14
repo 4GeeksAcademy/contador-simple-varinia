@@ -11,8 +11,17 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+let root = ReactDOM.createRoot(documentById('root'));
+
+let contador = 0
+setInterval(()=>{
+  
+let one = Math.floor((contador/1)10%)
+contador+1;
+},1000)
+
+root.render(
+    <React.StrictMode>
     <Home/>
   </React.StrictMode>,
 )
