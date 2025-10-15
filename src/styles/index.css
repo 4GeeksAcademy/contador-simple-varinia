@@ -9,4 +9,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#root{
+    background-color: black;
+    text-decoration-color: white;
+    width: auto;
+    height: 130px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 60px;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    border: 2px, solid white;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
 
