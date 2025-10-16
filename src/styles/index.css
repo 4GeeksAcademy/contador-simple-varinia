@@ -27,7 +27,8 @@
     justify-content: center;
 }
 .col{
-    border: 2px, solid white;
+    border: 3px, #383838;
+    border-style: none solid none solid;
     width: auto;
     border-radius: 15px;
     margin-top: 4px;
@@ -35,6 +36,7 @@
     margin-inline-end: 20px;
     justify-content: center;
     padding-top: 10px;
+    background-color: #080707;
 }
 
 
